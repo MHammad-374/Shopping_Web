@@ -8,12 +8,12 @@ export default function Header({ cartItems }) {
             <header>
                 <Navbar />
                 <div className="sec-navbar">
-                    <ul className='lists'>
+                    {/* <ul className='lists'>
                         <li className="list">HOME</li>
                         <li className="list">ABOUT</li>
                         <li className="list">PRODUCT TYPES</li>
                         <li className="list">CONTACT</li>
-                    </ul>
+                    </ul> */}
                     <Cart cartItems={cartItems} />
                 </div>
 
